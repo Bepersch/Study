@@ -13,7 +13,7 @@ else:
             print("NotLikeThis")
         else:
             if num > 0:
-                s += 1
+                j += 1
                 s += num
             n -= 1
     try:
