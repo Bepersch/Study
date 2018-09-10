@@ -1,5 +1,6 @@
 # coding: utf-8
 # %load hw1.py
+# Делалось в ipython
 def foo(*args, _type=None): 
     n1 = []
     n2 = {}

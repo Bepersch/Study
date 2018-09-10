@@ -6,6 +6,9 @@ else:
     s = 0
     c = 1
     for i in str(a):
-        s += int(i)
-        c *= int(i)
+        if i != "-":
+            s += int(i)
+            c *= int(i)
+        else:
+            break
     print("s =", s, "| c =", c)
