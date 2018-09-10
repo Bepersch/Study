@@ -10,3 +10,4 @@ else:
         print(a, "b =", a / 1024, "kb")
     else:
         print("Error Input")
+# new line 1
